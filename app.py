@@ -52,7 +52,6 @@ def index():
                           body=message_body)
         mail.send(message)
 
-
         flash(f"{first_name}, Your form was submitted successfully!")
 
     return render_template("index.html")
